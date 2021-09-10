@@ -20,13 +20,13 @@ import 'package:flutter/widgets.dart';
 ///
 /// This will aimate the child's scale from 1 to 0.5 in 150ms (default duration)
 ///
-class AnimatedScale extends StatefulWidget {
+class NeumorphicAnimatedScale extends StatefulWidget {
   final Widget? child;
   final double scale;
   final Duration duration;
   final Alignment alignment;
 
-  const AnimatedScale({
+  const NeumorphicAnimatedScale({
     this.child,
     this.scale = 1,
     this.duration = const Duration(milliseconds: 150),
